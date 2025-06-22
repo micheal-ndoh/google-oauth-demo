@@ -6,10 +6,11 @@ export default function HomePage() {
   const { data: session } = useSession();
 
   return (
-    <main style={{ padding: "2rem" }}>
+    <main style={{ padding: "8rem" }}>
       {!session ? (
         <>
-          <h1>Welcome, please sign in</h1>
+          <h1>Welcome To My Google-auth-App Demo </h1>
+            <h3> Please login to continue </h3>
           <button style={{ backgroundColor: "green", color: "black", }} onClick={() => signIn("google")}>Login with Google</button>
         </>
       ) : ( 
