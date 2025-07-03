@@ -84,6 +84,7 @@ Google Login → NextAuth callback → Prisma Adapter → Check DB:
 
 
 ### overview of what we do
+
 Install & configure Prisma
 
 Set up PostgreSQL
